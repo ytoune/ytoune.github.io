@@ -13,7 +13,6 @@ var waitDOMContentsLoaded = function() {
 	}));
 };
 
-
 waitDOMContentsLoaded()
 .then(function(){
 	var p = document.createElement('p');
