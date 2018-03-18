@@ -16,6 +16,6 @@ var waitDOMContentsLoaded = function() {
 waitDOMContentsLoaded()
 .then(function(){
 	var p = document.createElement('p');
-	p.append(document.createTextNode('onready!'));
+	p.append(document.createTextNode('hoge'));
 	document.body.append(p);
 });
